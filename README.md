@@ -1,46 +1,40 @@
 # App-Development
-SafeM8 is an innovative mobile application designed to enhance personal safety through smart technology and real-time connectivity. Whether you're walking alone, traveling, or in an emergency, SafeM8 provides reliable tools to keep you and your loved ones protected.
+Overview:
+SafeM8 is an innovative, home-based robotic assistant designed to seamlessly integrate real-time security monitoring with interactive STEM learning for children. Developed as an affordable and modular solution, SafeM8 addresses the growing need for multifunctional smart home devices by combining AI-powered surveillance, emergency alerts, and a child-friendly coding platform—all in one compact robot.
 
 Key Features:
-✔ Real-Time GPS Tracking:
+1. Intelligent Home Security
+AI-Driven Surveillance: Equipped with Pixy 2.1 camera and motion/temperature sensors to detect anomalies (e.g., intruders, fire risks) and send real-time alerts via the companion app.
 
-Share your live location with trusted contacts.
+Autonomous Patrolling: Navigates autonomously or manually via app control, with auto-docking for uninterrupted operation.
 
-Set up timed journeys with automatic alerts if you don’t reach your destination safely.
+Emergency Alerts: Notifies users of unusual activity (e.g., prolonged inactivity, temperature spikes) through Firebase-linked mobile notifications.
 
-✔ Emergency SOS:
+2. Interactive STEM Learning
+QR-Code Programming: Children learn basic coding by scanning QR codes to program the robot’s movements and actions, fostering early tech literacy.
 
-Instantly notify emergency contacts and authorities with a single tap.
+Modular Upgrades: Supports future add-ons (e.g., advanced sensors, coding modules) under the RMSOO framework for scalability.
 
-Trigger loud alarms and flashlights to deter threats.
+3. Smart Home Integration
+Compatible with Alexa and Google Home for voice-controlled operation.
 
-✔ Safe Zones & Danger Alerts:
+Open-source APIs enable seamless connectivity with existing IoT ecosystems.
 
-Mark safe/unsafe areas and receive alerts when entering high-risk zones.
+4. User-Centric Design
+Affordable & Sustainable: Cost-effective components (e.g., STM32 microcontroller, ESP32 WiFi) balance performance and budget.
 
-Crowdsourced hazard reports from other users.
+Privacy-First: Local data processing minimizes cloud dependency, addressing IoT security concerns.
 
-✔ Discreet Mode:
+Technical Highlights
+Hardware: STM32F4 microcontroller, Pixy 2.1 AI camera, LiPo battery with smart charging.
 
-Use covert signals (e.g., fake calls) to exit uncomfortable situations.
+Software: Custom Android app (Firebase backend) for remote control and alerts.
 
-Hidden interface for privacy in threatening scenarios.
-
-✔ AI-Powered Threat Detection:
-
-Analyze surroundings (e.g., sudden screams, aggressive sounds) and prompt safety actions.
-
-Integrates with wearables (e.g., smartwatches) for fall/heart rate alerts.
-
-✔ Community Safety Network:
-
-Join local safety groups for verified tips and support.
-
-Volunteer as a "Safety Buddy" for others in your area.
+Firmware: Autonomous navigation algorithms and sensor fusion (motion, temperature, gas).
 
 Why SafeM8?
-User-Centric Design: Simple, intuitive interface for all ages.
+Dual Utility: Replaces standalone security cameras and educational robots, reducing cost and clutter.
 
-Privacy-First: No data sold; end-to-end encryption for location sharing.
+Child Engagement: Makes STEM learning accessible through hands-on interaction.
 
-Adaptable: Customizable features for everyday use or travel.
+Future-Ready: Modular design allows upgrades as technology advances.
